@@ -1,6 +1,6 @@
 const CartManager = require("../../managers/cart/cartManager");
 const cartManager = new CartManager();
-const { Router } = require("express");
+import { Router } from 'express'
 const router = Router();
 
 router.post("/", async (req, res) => {

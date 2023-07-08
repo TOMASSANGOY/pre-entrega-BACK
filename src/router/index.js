@@ -6,4 +6,3 @@ const router = (app) => {
   app.use("/api/carts", cartsController);
 };
 
-module.exports = router;
